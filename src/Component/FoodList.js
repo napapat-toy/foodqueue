@@ -19,7 +19,7 @@ export default class FoodList extends Component {
                         />
                     )
                 })}
-                <button className="btn btn-danger" onClick={clearList}>Clear all list</button>
+                <button className="btn btn-danger font-weight-bold" onClick={clearList}>Clear all list</button>
             </ul>
         )
     }

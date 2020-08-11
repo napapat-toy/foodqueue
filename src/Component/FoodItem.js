@@ -7,8 +7,8 @@ export default class FoodItem extends Component {
         return (
             <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
                 <h6>{name}</h6>
-                <span onClick={handleEdit}><i className="far fa-edit"></i></span>
-                <span onClick={handleDelete}><i className="fas fa-trash"></i></span>
+                <span onClick={handleEdit} className="text-primary"><i className="far fa-edit"></i></span>
+                <span onClick={handleDelete} className="text-danger"><i className="fas fa-trash"></i></span>
             </li>
         )
     }
